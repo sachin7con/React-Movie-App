@@ -1,0 +1,57 @@
+/* ONS */
+#container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  justify-content: center;
+}
+#header{
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style for the table */
+#container1{
+  width: 80%;
+  background-color: lightgrey;
+}
+button{
+  background-color: grey;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px 0;
+}
+
+/* Add border to the table and cells */
+table, th, td {
+  border: 1px solid black;
+}
+
+/* Light grey background color for the table header */
+thead {
+  background-color: lightgrey;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
