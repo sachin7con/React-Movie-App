@@ -1,3 +1,6 @@
+
+// SGN
+
 import React, { useState } from 'react'
 import Header from './components/Header'
 import GenreFilter from './components/GenreFilter'
@@ -9,9 +12,7 @@ function App() {
 
   return (
     <div id="container">
-      <p className="grey">
-      SGN
-      </p>
+
       <div id="header">
         <Header />
       </div>
